@@ -1,0 +1,24 @@
+{
+  "name": "chaithrancatestfe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch sass/style.scss:css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gchaithra: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@github.com/gchaithra/ChaithraNCATestFE.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gchaithra/ChaithraNCATestFE/issues"
+  },
+  "homepage": "https://github.com/gchaithra/ChaithraNCATestFE#readme",
+  "dependencies": {
+    "sass": "^1.52.3"
+  }
+}

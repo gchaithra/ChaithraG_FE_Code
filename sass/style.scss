@@ -1,0 +1,97 @@
+@import 'variables.scss';
+
+body {
+    font-family: $font-family;
+}
+
+.grid-container {
+    width: $container_width;
+    display: $display_grid;
+    grid-template-columns: $big_grid_column_width $big_grid_column_width $small_grid_column_width;
+    margin: $auto_margin;
+    border: 1px solid $border-color;
+
+    .ad-grid {
+        border-left: 1px solid $border-color;
+        text-align: $text-center;
+    }
+
+    p {
+        font-size: $para-font;
+    }
+}
+
+.full-width-header {
+    width: $container_width;
+    display: $display_block;
+    margin: $auto_margin;
+    border: 1px solid $border-color;
+    text-align: $text-center;
+}
+
+.left-grid {
+    h1 {
+        text-transform: $transform_upper;
+        margin: $zero_margin;
+        letter-spacing: $letter-spacing-close;
+        font-size: $h1-font;
+    }
+
+    .red-text {
+        color: $red-text;
+        text-transform: $transform_upper;
+        font-size: $para-highlight;
+        font-weight: $font-900;
+    }
+}
+
+.right-grid {
+    padding: $grid_padding;
+}
+
+.card > img, .right-grid .thumbnail-image {
+    width: $full_width;
+}
+
+.nested {
+    border-bottom: 1px solid $border-color;
+}
+
+.nested-one {
+    h2 {
+        margin: $zero_margin;
+        letter-spacing: $letter-spacing-close;
+        font-size: $h2-font;
+     }
+
+    .secondary-image {
+        width: $full_width;
+    }
+
+    .blue-text {
+        color: $blue-text;
+        text-transform: $transform_upper;
+        font-size: $para-highlight;
+        font-weight: $font-900;
+    }
+}
+
+.nested-two, .nested-three {
+    display: $display_grid;
+    grid-template-columns: 4fr 1fr;
+    grid-column-gap: $standard_padding;
+}
+
+.nested-two h3, .nested-three h3 {
+    color: $h3_heading_color;
+    font-size: $h3-font;
+    margin: $zero_margin;
+    padding: $grid_padding 0 $padding-bottom ;
+}
+
+@media screen and (max-width: 1024px) {
+    .grid-container, .full-width-header {
+        width: $full_width;
+        display: $display_block;
+    }
+}

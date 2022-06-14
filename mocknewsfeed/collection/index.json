@@ -1,0 +1,10 @@
+[
+    {
+        "collectiontype": "trending",
+        "collectionid": "awesome-feed"
+    },
+    {
+        "collectiontype": "breaking-news",
+        "collectionid": "chachas-news-feed"
+    }
+]

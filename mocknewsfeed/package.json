@@ -1,0 +1,16 @@
+{
+  "name": "chaithras-news-server",
+  "version": "1.0.0",
+  "description": "The best news server you've ever seen",
+  "main": "newsapi.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch sass/style.scss:css/style.css"
+  },
+  "author": "Chaithra",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16"
+  }
+}

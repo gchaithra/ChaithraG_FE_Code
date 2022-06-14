@@ -1,0 +1,97 @@
+/* Container Size */
+/* All colors used specified here */
+/* Display Types */
+/* Paddings */
+/* Margins */
+/* Text Displays */
+/* Fonts */
+/* Font Size */
+/* Font Weight */
+body {
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+.grid-container {
+  width: 1250px;
+  display: grid;
+  grid-template-columns: 40% 40% 20%;
+  margin: auto;
+  border: 1px solid #CECECE;
+}
+.grid-container .ad-grid {
+  border-left: 1px solid #CECECE;
+  text-align: center;
+}
+.grid-container p {
+  font-size: 13px;
+}
+
+.full-width-header {
+  width: 1250px;
+  display: block;
+  margin: auto;
+  border: 1px solid #CECECE;
+  text-align: center;
+}
+
+.left-grid h1 {
+  text-transform: uppercase;
+  margin: 0;
+  letter-spacing: -1px;
+  font-size: 50px;
+}
+.left-grid .red-text {
+  color: #B90000;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 900;
+}
+
+.right-grid {
+  padding: 0.2em;
+}
+
+.card > img, .right-grid .thumbnail-image {
+  width: 100%;
+}
+
+.nested {
+  border-bottom: 1px solid #CECECE;
+}
+
+.nested-one h2 {
+  margin: 0;
+  letter-spacing: -1px;
+  font-size: 40px;
+}
+.nested-one .secondary-image {
+  width: 100%;
+}
+.nested-one .blue-text {
+  color: #1569C7;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 900;
+}
+
+.nested-two, .nested-three {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  grid-column-gap: 0.5em;
+}
+
+.nested-two h3, .nested-three h3 {
+  color: #A7A7A7;
+  font-size: 30px;
+  margin: 0;
+  padding: 0.2em 0 1.5em;
+}
+
+@media screen and (max-width: 1024px) {
+  .grid-container, .full-width-header {
+    width: 100%;
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

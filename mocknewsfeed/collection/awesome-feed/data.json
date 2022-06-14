@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Live: Greg Inglis to announce NRL Retirement",
+        "imageurl": "img/hero-img.PNG",
+        "intro": "<span class='red-text'>Rabbitohs Star</span> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+        "published": 2
+    },
+    {
+        "title": "Opal Tower units still closed as work only approved now",
+        "imageurl": "img/secondary-img.PNG",
+        "intro": "<span class='blue-text'>Exclusive</span> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "published": 1,
+        "comments": 1
+    },
+    {
+        "title": "One Nation Support has crashed: Newspoll",
+        "imageurl": "img/thumbnail-img-1.PNG",
+        "intro": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+        "published": 1
+    },
+    {
+        "title": "Two fake cops robbed Sydney currency shop",
+        "imageurl": "img/thumbnail-img-2.PNG",
+        "intro": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "published": 3
+    }
+]
