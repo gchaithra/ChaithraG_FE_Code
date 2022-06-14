@@ -44,8 +44,8 @@ function generateCommonNestedBlockHtml(article) {
 
 function generateLeftBlockHtml(article) {
     return `<div class="card hero nested">
-                <img class="hero-image" src="${article.imageurl}" alt="chaithra-g">
-                <h1><span><img class="hero-image" src="img/start.PNG" alt="hero-image"></span> ${article.title}</h1>
+                <img class="hero-image" src="${article.imageurl}" alt="hero-image">
+                <h1><span><img class="start-image" src="img/start.PNG" alt="start-image"></span> ${article.title}</h1>
                 <p>${article.intro}</p>
                 <span><i class="fa fa-clock-o"></i> ${article.published}m </span>
             </div>`;
